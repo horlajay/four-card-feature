@@ -1,0 +1,140 @@
+body{
+    background-color: hsl(0, 0%, 98%);
+    padding-left: 30px;
+    padding-top: 50px;
+    font-family: "Poppins" sans-serif;
+    font-size: 15px;
+    color: hsl(234, 12%, 34%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.heading h2 {
+    font-weight: 50;
+
+}
+.sheet-1 {
+    background-color: white;
+    height: 30%;
+    width: 80%;
+    margin-top: 50px;
+    padding: 10px 10px 20px 20px;
+    border-top: 4px solid hsl(180, 62%, 55%);
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px hsl(229, 6%, 66%);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.sheet-1 p {
+    margin-top: -10px;
+}
+.sheet-1-img {
+    margin-left: 180px;
+    margin-top: 10px;
+}
+
+.sheet-2 {
+    background-color: white;
+    height: 30%;
+    width: 80%;
+    box-shadow: 10px 10px 40px hsl(229, 6%, 66%);
+    padding: 10px 10px 20px 20px;
+    margin-top: 30px;
+    border-top: 4px solid hsl(0, 78%, 62%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.sheet-2 p {
+    margin-top: -10px;
+}
+.sheet-2-img {
+    margin-left: 180px;
+    margin-top: 10px;
+}
+.sheet-3 {
+    background-color: white;
+    height: 30%;
+    width: 80%;
+    margin-top: 30px;
+    padding: 10px 10px 20px 20px;
+    border-top: 4px solid hsl(34, 97%, 64%);
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px hsl(229, 6%, 66%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.sheet-3 p {
+    margin-top: -10px;
+}
+.sheet-3-img {
+    margin-left: 180px;
+    margin-top: 10px;
+}
+.sheet-4 {
+    background-color: white;
+    height: 30%;
+    width: 80%;
+    margin-top: 30px;
+    padding: 10px 10px 20px 20px;
+    border-top: 4px solid hsl(212, 86%, 64%);
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px hsl(229, 6%, 66%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.sheet-4 p {
+    margin-top: -10px;
+}
+.sheet-4-img {
+    margin-left: 180px;
+    margin-top: 10px;
+}
+@media (min-width:375px) {
+    body {
+        height: 100vh;
+    }
+    
+    .heading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+   .sheet-1 {
+       width: 20%;
+       height: 150px;
+       margin-left: -700px;
+       margin-top: 150px;
+   }
+   .sheet-2 {
+       width: 20%;
+       height: 150px;
+       margin-left: 0px;
+       margin-top: -300px;
+   }
+   .sheet-3 {
+       width: 20%;
+       height: 150px;
+       margin-left: 0px;
+       margin-top: px;
+   }
+   .sheet-4 {
+       width: 20%;
+       height: 150px;
+       margin-left: 700px;
+       margin-top: -280px;
+   }
+}
+
+
+
+.attribution { 
+    margin-top: 140px;
+    font-size: 11px; 
+    text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
